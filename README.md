@@ -10,7 +10,7 @@ falseChar is made on a hobby by a teenager who just started using C++ for few mo
 **⫸** We are **NOT** responsible for any damages cause by this program, please refer to this program licensing for more information.
 
 ## How this program works
-There's 2 C++ scripts and 1 **falseCharTable** (fcT) file. let's start with the scripts, compiler.cpp is for compiling text files into fc (falseChar) file, note that it works with any file, it will print it in terminal and save it into fc-output.fc file in the same directory as it, decompiler.cpp is for decompiling fc files back to text file.
+There's 2 C++ scripts and 1 **falseCharTable** (fcT) file. let's start with the scripts, compiler.cpp is for compiling text files into fc (falseChar) file, note that it works with any file, it will print it in terminal and save it into fc-output.fc file in the same directory as it, decompiler.cpp is for decompiling fc files back to text file, it takes absolute file path for argument for input file.
 
 Character codes are defined by CharTable.fcT (falseCharTable file) and saperated by lines, **line 1 is exclusive to space**.
 
